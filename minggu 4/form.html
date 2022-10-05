@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BELAJAR HTML</title>
+  </head>
+  <body>
+    <h1>FORM HTML</h1>
+    <form name="mahahaha" menthod="post" action="proses.php">
+      <table width="50%">
+        <tr>
+          <td>NIM</td>
+          <td><input type="number" name="fnim" required /></td>
+        </tr>
+        <br />
+        <tr>
+          <td>Nama</td>
+          <td><input type="text" name="fname" required /></td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td><input type="date" name="ftgllhr" required /></td>
+        </tr>
+        <tr>
+          <td>Program Studi</td>
+          <td>
+            <select name="fprodi" required>
+              <option>pilih</option>
+              <option>Teknik Informatika - S1</option>
+              <option>Sistem Informasi - S1</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Bidang Minat</td>
+          <td>
+            <input type="checkbox" /><label> Web Programmming</label>
+            <input type="checkbox" /><label> Data Science </label>
+            <input type="checkbox" /><label> Mobile Programmming</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Lampirkan Proposal</td>
+          <td>
+            <input type="file" required />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" /><input type="reset" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
