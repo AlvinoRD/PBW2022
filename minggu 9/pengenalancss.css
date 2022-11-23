@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 100px;
+    text-align: center;
+    border: 0px solid rgb(109, 109, 62);
+    background-color: darkgray;
+}
+nav{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+nav ul{
+    list-style-type: square;
+    border: 1px solid gold;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5px;
+}
+nav ul li a{
+    display: block;
+    color: #000000;
+    padding: 10px;
+}
